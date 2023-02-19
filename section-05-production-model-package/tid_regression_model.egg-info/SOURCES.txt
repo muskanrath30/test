@@ -1,8 +1,6 @@
 MANIFEST.in
 pyproject.toml
 setup.py
-./requirements/requirements.txt
-./requirements/test_requirements.txt
 regression_model/VERSION
 regression_model/__init__.py
 regression_model/config.yml
@@ -20,6 +18,8 @@ regression_model/processing/features.py
 regression_model/processing/validation.py
 regression_model/trained_models/__init__.py
 regression_model/trained_models/regression_model_output_v0.0.1.pkl
+requirements/requirements.txt
+requirements/test_requirements.txt
 tests/test_features.py
 tests/test_prediction.py
 tid_regression_model.egg-info/PKG-INFO
