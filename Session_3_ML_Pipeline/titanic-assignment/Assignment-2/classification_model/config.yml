@@ -1,0 +1,55 @@
+# Package Overview
+package_name: classification_model
+
+# Data Files
+training_data_file: train.csv
+test_data_file: test.csv
+
+# Variables
+# The variable we are attempting to predict
+target: survived
+
+pipeline_name: classification_model
+pipeline_save_file: classification_model_output_v
+
+
+# Intendention matters in yml and here a key with intended dash is the list 
+features:
+  - age
+  - fare
+  - pclass
+  - sex
+  - sibsp
+  - parch
+  - embarked
+  - title
+  - cabin
+
+# set train/test split
+test_size: 0.2  
+
+# to set the random seed
+random_state: 0
+
+regularization: 0.005
+
+# categorical variables with NA in train set
+categorical_vars_with_na_missing:
+  - embarked
+  - cabin
+
+numerical_vars_with_na:
+  - age
+  - fare
+
+cabin_var_imputation:
+  - cabin
+
+categorical_vars:
+  - pclass
+  - sex
+  - sibsp
+  - parch
+  - embarked
+  - title
+  - cabin
