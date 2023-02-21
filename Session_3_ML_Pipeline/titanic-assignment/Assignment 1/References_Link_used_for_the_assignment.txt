@@ -1,0 +1,21 @@
+Primary references: 
+session 8 file inside Session 3 folder
+https://gist.github.com/NeelkanthMehta/a9ea82f41282113e2f532ffb99e3b890
+https://jovian.com/titusib48/03-titanic-survival-pipeline-assignment
+Reference:
+1) Identifying whether the variables are numerical and categorical:
+https://stackoverflow.com/questions/26924904/check-if-dataframe-column-is-categorical
+https://subscription.packtpub.com/book/data/9781789806311/1/ch01lvl1sec03/identifying-numerical-and-categorical-variables
+https://pandas.pydata.org/docs/user_guide/categorical.html
+2) Getting list of a specified column of a pandas dataframe:
+https://www.geeksforgeeks.org/get-a-list-of-a-specified-column-of-a-pandas-dataframe/ 
+3) How to select only numeric columns in pandas:
+https://www.statology.org/pandas-select-numeric-columns/
+4) How to select categorical columns in pandas:
+https://www.geeksforgeeks.org/python-pandas-categorical/
+5) NaN values in dataframe:
+https://stackoverflow.com/questions/36226083/how-to-find-which-columns-contain-any-nan-value-in-pandas-dataframe#:~:text=You%20can%20use%20df.,total%20NaNs%20of%20each%20feature.
+6) Reference: 
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.select_dtypes.html
+7) Determining variable distribution: 
+https://subscription.packtpub.com/book/data/9781789806311/1/ch01lvl1sec09/distinguishing-variable-distribution
